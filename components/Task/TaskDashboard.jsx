@@ -41,6 +41,14 @@ export default function TaskDashboard({
   const [showCalendar, setShowCalendar] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
 
+  // Get today's date dynamically
+  const today = new Date();
+  const dateLabel = today.toLocaleString("en-US", {
+    day: "numeric",
+    month: "short",
+    weekday: "short",
+  });
+
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
@@ -142,7 +150,7 @@ export default function TaskDashboard({
           <div className="xl:sticky xl:top-10 xl:self-start">
             <div>
               <ProgressCard
-                dateLabel="24 April, Mon"
+                dateLabel={dateLabel}
                 completedCount={completed.length}
                 totalCount={tasks.length}
               />
