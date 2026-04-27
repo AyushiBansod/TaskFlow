@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Create wireframe",
+      "subtitle": "Today",
+      "label": "FEATURE",
+      "status": "In Progress",
+      "priority": "High",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Design home page",
+      "subtitle": "Today",
+      "label": "DESIGN",
+      "status": "Todo",
+      "priority": "Medium",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Make E-commerce website",
+      "subtitle": "Today",
+      "label": "TECHNOLOGY",
+      "status": "Done",
+      "priority": "Low",
+      "completed": true
+    }
+  ],
+  "challenges": [
+   {
+  "id": 1,
+  "title": "Write API Documentation",
+  "description": "Document all REST endpoints with examples, authentication details, and error codes",
+  "difficulty": "Easy",
+  "status": "Completed",
+  "dueDate": "2026-04-28",
+  "createdAt": "2026-04-25T14:15:00.000Z"
+},
+    {
+      "id": 2,
+      "title": "Build a Portfolio Website",
+      "description": "Create a personal portfolio website to showcase projects",
+      "difficulty": "Hard",
+      "status": "Pending",
+      "dueDate": "2026-05-10",
+      "createdAt": "2026-04-26T10:00:00.000Z"
+    }
+  ]
+}
