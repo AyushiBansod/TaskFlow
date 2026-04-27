@@ -148,7 +148,7 @@ export default function CalendarView({ onBack }) {
   const dayName = selectedDate.toLocaleString("default", { weekday: "long" });
 
   return (
-    <div className="fixed inset-0 z-100 bg-black flex flex-col overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-black flex flex-col overflow-hidden">
       {/* Header Section */}
       <div className="px-6 pt-12 pb-8 bg-black relative z-20">
         <div className="flex items-center gap-4">
